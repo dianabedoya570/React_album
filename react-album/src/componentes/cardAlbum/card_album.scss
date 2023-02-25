@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@800&family=Tilt+Neon&display=swap');
+
+.card{
+  
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  
+  margin:20px;
+ 
+    &__img{
+            width: 50%;
+            border-radius: 10px 0 0 10px;
+            display: inline-block;
+            img{
+                object-fit:contain;
+                border-radius: 10px 0 0 10px;
+              }
+            }    
+    &__Info{
+      width: 40%;
+    
+      margin:15px ;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    &__heard{
+      width: 9%;
+      display: flex;
+      align-items: end;
+      img{
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+   } 
+ 
+
+
+
+

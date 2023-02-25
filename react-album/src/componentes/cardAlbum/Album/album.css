@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@800&family=Tilt+Neon&display=swap");
+.album {
+  font-family: "Tilt Neon", cursive;
+  color: #7a7a7a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+}
+.album__title {
+  padding: 0;
+  margin: 0;
+}
+.album__gender {
+  margin-top: 40px;
+  background-color: #ffbdc8;
+  color: black;
+  font-weight: normal;
+  border-radius: 60px;
+  border-style: none;
+  height: 30%;
+  width: 40%;
+}/*# sourceMappingURL=album.css.map */
